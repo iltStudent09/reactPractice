@@ -1,0 +1,27 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem;
+}
+
+.intro {
+  margin-bottom: 2rem;
+}
+
+.practice-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.practice-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: left;
+  background: var(--social-bg);
+}
+
+.practice-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
