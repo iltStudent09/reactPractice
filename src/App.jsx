@@ -1,6 +1,7 @@
 import './App.css'
 import CounterPractice from './practice/CounterPractice'
 import PrintingGreetings from './practice/printingGreetings'
+import InventoryPractice from './practice/InventoryPractice'
 
 function App() {
   return (
@@ -20,6 +21,11 @@ function App() {
           <h2>Printing Greetings</h2>
           <p>A component to practice handling user input and state.</p>
           <PrintingGreetings />
+        </article>
+        <article className="practice-card">
+          <h2>Inventory Practice</h2>
+          <p>Uses an array and shows items that are currently in stock.</p>
+          <InventoryPractice />
         </article>
       </section>
     </main>
